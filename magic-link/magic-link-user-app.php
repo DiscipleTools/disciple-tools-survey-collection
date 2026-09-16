@@ -157,6 +157,7 @@ class Disciple_Tools_Survey_Collection_Magic_User_App extends DT_Magic_Url_Base 
 
     public function dt_magic_url_base_allowed_js( $allowed_js ) {
         $allowed_js[] = 'mapbox-gl';
+        $allowed_js[] = 'jquery-cookie';
         $allowed_js[] = 'mapbox-cookie';
         $allowed_js[] = 'mapbox-search-widget';
         $allowed_js[] = 'jquery-typeahead';
