@@ -37,4 +37,3 @@ class Disciple_Tools_Survey_Collection_Site_Links {
     }
 }
 Disciple_Tools_Survey_Collection_Site_Links::instance();
-

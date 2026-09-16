@@ -51,6 +51,5 @@ if ( class_exists( 'DT_Dashboard_Tile' ) ) {
             $tile   = $this;
             include( Disciple_Tools_Survey_Collection::dir() . 'tile/dashboard-tile-template.php' );
         }
-
     }
 }
